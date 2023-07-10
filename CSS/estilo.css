@@ -1,20 +1,41 @@
 @charset "UTF-8";
 
 body{
-    background: purple;
+    background: #000;
     margin: 0;
     padding: 0;
 }
 
 header{
     display: grid;
-    background: #000;
+    background-color: #5F9EA0;
+    height: 180px;
     top: 0;
 }
 
+#divBusca{
+    background-color: #E0EEEE;
+    border: solid 2px #5F9EA0;
+    width: 300px;
+    height: 32px;
+    margin-left: 78%;
+    border-radius: 10px;
+    margin-top: -150px;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:300px;
+    border-radius:10px;
+  }
+
 nav{
-   
-    width: 100vw;
+    width: 80vw;
 }
 
 nav > ol > li{
@@ -25,12 +46,36 @@ nav > ol > li{
 
 a{
     text-decoration: none;
+    font-size: 1.5em;
     color: #fff;
+    
+}
+
+a:hover{
+    background-color: purple;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+div#img-logo{
+    margin-left: 685px;
+    margin-top: 63px;
 }
 
 #logo{
-    width: 70PX;
-    height: 70PX;
+    width: 99PX;
+    height: 80PX;
     border-radius: 50%;
-    margin-right: 70%;
+}
+
+div.conteudo{
+    background: url(../Img/fundo-conteudo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+}
+
+p#conteudo{
+    margin-top: 58px;
 }
