@@ -6,9 +6,15 @@ body{
     padding: 0;
 }
 
+div#principal{
+    display: grid;
+}
+
 header{
     display: grid;
+    position: fixed;
     background-color: #5F9EA0;
+    width: 100vw;
     height: 180px;
     top: 0;
 }
@@ -58,7 +64,7 @@ a:hover{
 }
 
 div#img-logo{
-    margin-left: 685px;
+    margin-left: 775px;
     margin-top: 63px;
 }
 
@@ -69,13 +75,41 @@ div#img-logo{
 }
 
 div.conteudo{
+    display: grid;
     background: url(../Img/fundo-conteudo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     height: 100vh;
+    margin-top: 215px;
 }
 
-p#conteudo{
-    margin-top: 58px;
+div#conteudo-Te{
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(2, 1fr) ;
+    margin-top: 180px;
 }
+
+div#conteudo-01-entregas{
+    background-color: blueviolet;
+    border: 4px solid red;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 40px;
+}
+
+div#conteudo-02-entregas{
+    background-color: blueviolet;
+    border: 4px solid red;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 40px;
+}
+
+div#conteudo-03-entregas{
+    background-color: teal;
+    margin: 10px;
+    padding: 40px;
+}
+
+
