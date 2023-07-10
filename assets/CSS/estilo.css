@@ -78,6 +78,7 @@ div.conteudo{
     display: grid;
     background: url(../Img/fundo-conteudo.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     color: #fff;
     height: 100vh;
