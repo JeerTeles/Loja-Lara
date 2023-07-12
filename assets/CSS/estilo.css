@@ -64,7 +64,7 @@ a:hover{
 }
 
 div#img-logo{
-    margin-left: 775px;
+    margin-left: 710px;
     margin-top: 63px;
 }
 
@@ -85,7 +85,20 @@ div.conteudo{
     margin-top: 215px;
 }
 
-div#conteudo-Te{
+div#page-colares{
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+    gap: 20px
+
+}
+
+.img-colares{
+    border: 2px solid red;
+    width: 30vw;
+   
+}
+
+div#conteudo-entregas{
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(2, 1fr) ;
     margin-top: 180px;
